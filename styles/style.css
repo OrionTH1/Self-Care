@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "header" "figure" "main" "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 94px 375px 1570px 348px;
+}
+
+header {
+    background-color: red;
+    grid-area: header;
+}
+
+figure {
+    background-color: blue;
+    grid-area: figure;
+}
+
+main {
+    background-color: black;
+    grid-area: main;
+}
+
+footer {
+    background-color: blueviolet;
+    grid-area: footer;
+}
